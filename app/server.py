@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1DhbgGKfHpZSUDbXZN5ThwbOh0_cyQFwZ'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1z_pEjjfg1jfgTKIXcv4H8Iq2TZqQ6JJf?alt=media&key=AIzaSyB9RprSJ9pwKPt2vawj8w-f1mN4DnAZk4s'
 export_file_name = 'trained_model.pkl'
 
 classes = ['smog','clear']
